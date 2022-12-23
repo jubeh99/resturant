@@ -16,7 +16,7 @@
         android:layout_height="123dp"
         android:layout_gravity="center|top"
 
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         android:src="@drawable/iconcart" />
 
     <TextView
@@ -29,8 +29,9 @@
         android:gravity="center"
         android:text="Main"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="15dp" />
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 
 </androidx.cardview.widget.CardView>

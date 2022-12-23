@@ -41,13 +41,13 @@ Adapter_Items_Of_Menu homeAdapterVer;
 
         ///horizantal menu
         homeModel = new ArrayList<>();
-        homeModel.add(new Home_Models(R.drawable.app2,"apptizer"));
-        homeModel.add(new Home_Models(R.drawable.taboola,"salads"));
-        homeModel.add(new Home_Models(R.drawable.fajita,"MAIN DISH "));
-        homeModel.add(new Home_Models(R.drawable.crispyburger,"burgers"));
-        homeModel.add(new Home_Models(R.drawable.orange,"cold drinks"));
-        homeModel.add(new Home_Models(R.drawable.hotchoc,"hot drinks"));
-        homeModel.add(new Home_Models(R.drawable.sofle,"Desserts"));
+        homeModel.add(new Home_Models(R.drawable.appetizers,"apptizer"));
+        homeModel.add(new Home_Models(R.drawable.salad,"salads"));
+        homeModel.add(new Home_Models(R.drawable.main_dish,"MAIN DISH "));
+        homeModel.add(new Home_Models(R.drawable.burger,"burgers"));
+        homeModel.add(new Home_Models(R.drawable.cold_dring,"cold drinks"));
+        homeModel.add(new Home_Models(R.drawable.hot_drinck,"hot drinks"));
+        homeModel.add(new Home_Models(R.drawable.dessert,"Desserts"));
         homeModel.add(new Home_Models(R.drawable.hooka,"hoka"));
 
         homeAdapter =  new Adapter_home(this,getActivity(),homeModel);

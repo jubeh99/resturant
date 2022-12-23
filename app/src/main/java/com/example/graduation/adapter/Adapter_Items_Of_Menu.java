@@ -50,13 +50,15 @@ public class Adapter_Items_Of_Menu extends RecyclerView.Adapter<Adapter_Items_Of
                 AlertDialog.Builder builder = new AlertDialog.Builder(view.getRootView().getContext());
                 View dialogView=LayoutInflater.from(view.getRootView().getContext()).inflate(R.layout.items_pop,null);
                 de.hdodenhof.circleimageview.CircleImageView image3 ;
-                TextView textView3;
+                TextView textView3 , textView7 ;
                 Button button3;
                 image3=dialogView.findViewById(R.id.image3);
                 textView3=dialogView.findViewById(R.id.textView3);
+                textView7=dialogView.findViewById(R.id.textView7);
                 button3=dialogView.findViewById(R.id.button3);
                 image3.setImageResource(model.getImage());
                 textView3.setText(model.getName());
+                textView7.setText(model.getPrise());
                 button3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

@@ -47,14 +47,14 @@ public class Adapter_home extends RecyclerView.Adapter<Adapter_home.ViewHolder> 
 
         if (check) {
             ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
-            items_of_menus.add(new Items_Of_Menu(R.drawable.four_cheese_garlic_bread, "four_cheese_garlic_bread"));
-            items_of_menus.add(new Items_Of_Menu(R.drawable.mozzarella_sticks, "mozzarella_sticks"));
-            items_of_menus.add(new Items_Of_Menu(R.drawable.chicken_tenders, "chicken_tenders"));
-            items_of_menus.add(new Items_Of_Menu(R.drawable.stuffed_mushrooms, "stuffed_mushrooms"));
-            items_of_menus.add(new Items_Of_Menu(R.drawable.nachos, "nachos"));
-            items_of_menus.add(new Items_Of_Menu(R.drawable.french_fries, "french_fries"));
-            items_of_menus.add(new Items_Of_Menu(R.drawable.onion_rings, "onion_rings"));
-            items_of_menus.add(new Items_Of_Menu(R.drawable.classic_wings, "classic_wings"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.four_cheese_garlic_bread, "four_cheese_garlic_bread", "30$"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.mozzarella_sticks, "mozzarella_sticks", "30$"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.chicken_tenders, "chicken_tenders", "30$"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.stuffed_mushrooms, "stuffed_mushrooms", "30$"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.nachos, "nachos", "30$"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.french_fries, "french_fries", "30$"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.onion_rings, "onion_rings", "30$"));
+            items_of_menus.add(new Items_Of_Menu(R.drawable.classic_wings, "classic_wings", "30$"));
 
             updateItems.callBack(position, items_of_menus);
             check = false;
@@ -67,34 +67,40 @@ public class Adapter_home extends RecyclerView.Adapter<Adapter_home.ViewHolder> 
                 if (position == 0) {
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.four_cheese_garlic_bread, "four_cheese_garlic_bread"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.mozzarella_sticks, "mozzarella_sticks"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.chicken_tenders, "chicken_tenders"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.stuffed_mushrooms, "stuffed_mushrooms"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.nachos, "nachos"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.french_fries, "french_fries"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.onion_rings, "onion_rings"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.classic_wings, "classic_wings"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.four_cheese_garlic_bread, "four_cheese_garlic_bread", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.mozzarella_sticks, "mozzarella_sticks", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.chicken_tenders, "chicken_tenders", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.stuffed_mushrooms, "stuffed_mushrooms", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.nachos, "nachos", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.french_fries, "french_fries", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.onion_rings, "onion_rings", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.classic_wings, "classic_wings", "30$"));
                     updateItems.callBack(position, items_of_menus);
 
                 } else if (position == 1) {
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.fajita, "1"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.dd, "Fruit Salad" +
-                            "50$"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "3"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.apptizer, "4"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.chicken_caesar_salad, "chicken caesar salad", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.greek_salad, "Fruit Salad", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.halloumi_salad, "halloumi_salad", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.quinoa_salad, "quinoa_salad", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.rocca_salad, "rocca_salad", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.taboola_salad, "taboola_salad", "30$"));
                     updateItems.callBack(position, items_of_menus);
                 }
                 if (position == 2) {
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
 
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "1"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "2"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "3"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "4"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.beef_mushroom_sauce, "beef_mushroom_sauce", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.beef_stroganoff, "beef_stroganoff", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.chicken_fajita, "chicken_fajita", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.chicken_pesto, "chicken_pesto", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.entrecote_steak, "entrecote_steak", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.garlic_lemon_chicken, "garlic_lemon_chicken", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.grilled_salmon, "grilled_salmon", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.grilled_shrimps, "grilled_shrimps", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.mushroom_chicken, "mushroom_chicken", "30$"));
                     updateItems.callBack(position, items_of_menus);
 
                 }
@@ -102,10 +108,14 @@ public class Adapter_home extends RecyclerView.Adapter<Adapter_home.ViewHolder> 
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
 
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.hooka, "1"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.hooka, "2"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.hooka, "3"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.hooka, "4"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.asado_burger, "asado_burger", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.classic_burger, "classic_burger", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.crispy_burger, "crispy_burger", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.grilled_burger, "grilled_burger", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.mexican_burger, "mexican_burger", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.steak_burger, "steak_burger", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.swiss_burger, "swiss_burger", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.vegerarian_burger, "vegerarian_burger", "30$"));
 
                     updateItems.callBack(position, items_of_menus);
                 }
@@ -113,10 +123,11 @@ public class Adapter_home extends RecyclerView.Adapter<Adapter_home.ViewHolder> 
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
 
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "1"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "2"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "3"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "4"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.apple, "apple", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.carrot, "carrot", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.lemon, "lemon", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.pomegranate, "pomegranate", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.strawberry, "strawberry", "30$"));
 
                     updateItems.callBack(position, items_of_menus);
                 }
@@ -124,10 +135,11 @@ public class Adapter_home extends RecyclerView.Adapter<Adapter_home.ViewHolder> 
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
 
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "1"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "2"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "3"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "4"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.cappuccino, "cappuccino", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.chai_late, "chai_late", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.epreso, "epreso", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.nescafe, "nescafe", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.traditional_turkish_coffee, "traditional_turkish_coffee", "30$"));
                     updateItems.callBack(position, items_of_menus);
 
                 }
@@ -135,10 +147,10 @@ public class Adapter_home extends RecyclerView.Adapter<Adapter_home.ViewHolder> 
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
 
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "1"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "2"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "3"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "4"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.brownies, "brownies", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.cheese_cake, "cheese_cake", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.creme_brulee, "creme_brulee", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.souffle, "souffle", "30$"));
                     updateItems.callBack(position, items_of_menus);
 
 
@@ -147,10 +159,12 @@ public class Adapter_home extends RecyclerView.Adapter<Adapter_home.ViewHolder> 
 
                     ArrayList<Items_Of_Menu> items_of_menus = new ArrayList<>();
 
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "1"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "2"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "3"));
-                    items_of_menus.add(new Items_Of_Menu(R.drawable.burger, "4"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.hoka, "two apple", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.hoka, "blueberry", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.hoka, "lemon and melt", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.hoka, "watermelon", "30$"));
+                    items_of_menus.add(new Items_Of_Menu(R.drawable.hoka, "candy", "30$"));
+
 
                     updateItems.callBack(position, items_of_menus);
 
