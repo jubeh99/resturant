@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu"
+
+    >
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.graduation.ui.home.HomeFragment"
+        android:label="@string/menu"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_you_r_cart"
+        android:name="com.example.graduation.ui.gallery.Cart"
+        android:label="@string/you_r_cart"
+        tools:layout="@layout/cart_fragment" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.graduation.ui.slideshow.Favourite"
+        android:label="@string/about_us"
+        tools:layout="@layout/aboutus_fragment" />
+</navigation>

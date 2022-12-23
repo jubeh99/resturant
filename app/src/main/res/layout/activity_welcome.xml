@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Welcome">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="506dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="377dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="320dp"
+        android:fontFamily="@font/oregano"
+        android:text="View Menu"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="96sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn_guest"
+        android:layout_width="372dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="414dp"
+        android:layout_marginTop="493dp"
+        android:layout_marginEnd="414dp"
+        android:background="@drawable/log"
+        android:fontFamily="@font/oleo_script"
+        android:onClick="MainActivity"
+        android:text=" As a Guest"
+        android:textColor="#623104"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/btn_regular"
+        android:layout_width="372dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="414dp"
+        android:layout_marginTop="638dp"
+        android:layout_marginEnd="414dp"
+        android:background="@drawable/log"
+        android:fontFamily="@font/oleo_script"
+        android:onClick="Login"
+        android:text=" As a Regular"
+        android:textColor="#623104"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/view_tableNum"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="1007dp"
+
+        android:layout_marginBottom="710dp"
+        android:background="@drawable/log"
+        android:textAlignment="center"
+        android:textColor="#623104"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:drawableTint="#3C56A3"
+        app:fontFamily="@font/oregano" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="66dp"
+        android:layout_height="78dp"
+        android:onClick="ShowPopup"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="349dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/i" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="475dp"
+        android:layout_marginEnd="475dp"
+        android:layout_marginBottom="583dp"
+        android:fontFamily="@font/oregano"
+        android:text="Table "
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="96sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="521dp"
+        android:layout_marginBottom="502dp"
+        android:fontFamily="@font/oregano"
+        android:text="Top"
+        android:textColor="#ffffff"
+        android:textSize="96sp" />
+
+    <!--    app:drawableTopCompat="@drawable/reg_log_b"-->
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/iconmenu"
+            android:title="@string/menu" />
+        <item
+            android:id="@+id/nav_you_r_cart"
+            android:icon="@drawable/iconcart"
+            android:title="@string/you_r_cart" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/i"
+            android:title="@string/about_us" />
+    </group>
+</menu>

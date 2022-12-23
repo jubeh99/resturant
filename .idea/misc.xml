@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Graduation/app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.3295" />
+        <entry key="..\:/Graduation/app/src/main/res/drawable/round.xml" value="0.3605" />
+        <entry key="..\:/Graduation/app/src/main/res/drawable/round2.xml" value="0.3615" />
+        <entry key="..\:/Graduation/app/src/main/res/drawable/side_nav_bar.xml" value="0.3295" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/aboutus_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/activity_login.xml" value="0.1596130592503023" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/activity_sign_up.xml" value="0.358695652173913" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/activity_table_number.xml" value="0.25905797101449274" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/activity_welcom.xml" value="0.18802083333333333" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/activity_welcome.xml" value="0.15670289855072464" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/bar_main.xml" value="0.2776268115942029" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/cart_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/cart_items.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/content_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/favourite_fragment.xml" value="0.27291666666666664" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/fragment_home.xml" value="0.21281741233373638" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/horizantal_items.xml" value="0.2563405797101449" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/items_on_click.xml" value="0.21281741233373638" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/menu_fragment.xml" value="0.1" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/menu_items.xml" value="0.21281741233373638" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/menu_items2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/nav_header_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Graduation/app/src/main/res/layout/popup_activity.xml" value="0.15670289855072464" />
+        <entry key="..\:/Graduation/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/activity_welcome.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/cart_items.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/fragment_home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/horizantal_items.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/items_pop.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/menu_items.xml" value="0.2608695652173913" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/nav_header_main.xml" value="0.2608695652173913" />
+        <entry key="..\:/Users/Twitter Store/Desktop/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/popup_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/drawable-v24/round3.xml" value="0.245" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/drawable/round.xml" value="0.245" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/drawable/round2.xml" value="0.245" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/activity_table_number.xml" value="0.264" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/activity_welcome.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/fragment_home.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/horizantal_items.xml" value="0.264" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/items_pop.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/menu_items.xml" value="0.275" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/nav_header_main.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/popup_activity.xml" value="0.136" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/spinner2.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/Twitter Store/Desktop/android-assign1/Graduation_new2tt/Graduation_new22/Graduation/app/src/main/res/layout/spinner_item.xml" value="0.1" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/aboutus_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/activity_table_number.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/cart_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/cart_items.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/horizantal_items.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/items_pop.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/menu_items.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/layout/popup_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/menu/activity_main_drawer.xml" value="0.24217687074829933" />
+        <entry key="..\:/Users/omarm/OneDrive/Desktop/Graduation_new/Graduation/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
